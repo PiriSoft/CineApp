@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <Folder Include="Concrete\EntityFramework\Mappings\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
   </ItemGroup>
 
   <ItemGroup>
