@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CineApp.Core.Concrete.EntityFramework.Contexts
 {
-    public class MovieDbContext /*: DbContext*/
+    public class MovieDbContext : DbContext
     {
         ////public DbSet<Category> Categories { get; set; }
 
