@@ -9,4 +9,9 @@
     <Folder Include="Abstract\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CineApp.DataAccess\CineApp.DataAccess.csproj" />
+    <ProjectReference Include="..\CineApp.Entities\CineApp.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
