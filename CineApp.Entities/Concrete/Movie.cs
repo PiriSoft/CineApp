@@ -14,7 +14,7 @@ namespace CineApp.Entities.Concrete
         public DateTime MovieTime { get; set; }
         public int VoteCount{ get; set; }
         public decimal VoteAvarage{ get; set; }
-        public ICollection<MovieType> MovieType{ get; set; }
+        public MovieType MovieType{ get; set; }
 
     }
 
