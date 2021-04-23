@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Managers\ContinuationJobs\" />
+    <Folder Include="Managers\DelayedJobs\" />
+    <Folder Include="Managers\FireAndForgetJobs\" />
+    <Folder Include="Managers\RecurringJobs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.0-beta2" />
+  </ItemGroup>
+
+</Project>
