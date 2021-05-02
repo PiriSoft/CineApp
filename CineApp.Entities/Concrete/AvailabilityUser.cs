@@ -9,8 +9,8 @@ namespace CineApp.Entities.Concrete
         public int UserId{ get; set; }
         public User User{ get; set; }
 
-        public  DateTime? AvailabilityStartDate { get; set; } 
-        public DateTime? AvailabilityEndDate { get; set; }
+        public  DateTime AvailabilityStartDate { get; set; } 
+        public DateTime AvailabilityEndDate { get; set; }
     }
 
 }
