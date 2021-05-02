@@ -1,5 +1,6 @@
 ﻿using CineApp.Core.Entities.Abstract;
 using CineApp.Entities.Dtos.UserDetailDtos;
+using CineApp.Entities.Dtos.UserTokenDtos;
 
 namespace CineApp.Entities.Dtos.UserDtos
 {
